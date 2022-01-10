@@ -1,0 +1,36 @@
+Strong and statically typed
+
+solid community
+
+key features
+    simplicity
+    fast compile times
+    garbage collected
+    built-in concurrency
+    compile to standalone binaries
+
+resources
+    golang.org
+    play.golang.org
+
+variables
+    creation
+        inline
+            var x int = 42
+            x := 42
+        
+        block
+            var (
+                x int = 42
+            )
+
+        capitals
+            at the package level if var is capitalized var is visible outside the package
+
+        
+    naming
+        length of the var name should reflect the life of the variable
+        accronyms should be all uppercase
+
+operators
+    := - a way to declare and assign a variable its value

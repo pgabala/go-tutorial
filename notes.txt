@@ -43,3 +43,13 @@ primatives
 
 conversion
     ex. int(b)
+
+
+constants
+    ex. const myConst int = 42
+    
+    type can be inferred
+    ex. const a = 42
+
+    iota is a special value similar to a counter
+    intial value of iota is the "zero" value of a type

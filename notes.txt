@@ -34,3 +34,12 @@ variables
 
 operators
     := - a way to declare and assign a variable its value
+
+
+primatives
+    every time you initialize a var its has a "zero" value if its not set
+    ex. bool = false
+
+
+conversion
+    ex. int(b)

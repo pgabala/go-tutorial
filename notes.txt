@@ -53,3 +53,19 @@ constants
 
     iota is a special value similar to a counter
     intial value of iota is the "zero" value of a type
+
+write only variable
+    ex. _
+
+Arrays
+    stored in memory just like C++ each in a row
+
+    [...] type {values} - ... sets size to the count of values
+
+    len([]) - length function
+
+    arrays are actually considered values
+        when copying arrays go will actually copy the array by default
+            if the above fuctionality is not desired, then use a pointer ;)
+
+    

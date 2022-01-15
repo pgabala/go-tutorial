@@ -68,4 +68,10 @@ Arrays
         when copying arrays go will actually copy the array by default
             if the above fuctionality is not desired, then use a pointer ;)
 
-    
+
+Slices
+    array reference types and passed by ref and dont have a set size
+
+    slicing operations : can be used with both an array and a Slices
+
+    slices can have elements added and

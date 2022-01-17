@@ -93,9 +93,11 @@ Maps
 Structs
     can hold multiple data types (objects in js)
 
+    no Inheritance but can use Composition via embedding
+
     
 Composition vs Inheritance
-    structs imbedded
+    structs embedded
         animal to bird
         ex. 
         type Animal struct {

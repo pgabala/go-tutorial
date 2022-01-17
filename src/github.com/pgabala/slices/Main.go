@@ -10,8 +10,8 @@ func main() {
 	grades := []int{97, 85, 93, 90, 95}
 
 	fmt.Printf("Grades: %v\n", grades)
-	fmt.Printf("Amount of grades, \n", len(grades))
-	fmt.Printf("Capacity of grades, \n", cap(grades))
+	fmt.Printf("Amount of grades, %v\n", len(grades))
+	fmt.Printf("Capacity of grades, %v\n", cap(grades))
 	fmt.Printf("\n")
 	// slicing operations
 

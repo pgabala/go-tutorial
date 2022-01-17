@@ -1,17 +1,17 @@
 Strong and statically typed
-
-solid community
-
-key features
+Solid community
+Key features
     simplicity
     fast compile times
     garbage collected
     built-in concurrency
     compile to standalone binaries
 
+
 resources
     golang.org
     play.golang.org
+
 
 variables
     creation
@@ -31,6 +31,7 @@ variables
     naming
         length of the var name should reflect the life of the variable
         accronyms should be all uppercase
+
 
 operators
     := - a way to declare and assign a variable its value
@@ -54,8 +55,10 @@ constants
     iota is a special value similar to a counter
     intial value of iota is the "zero" value of a type
 
+
 write only variable
     ex. _
+
 
 Arrays
     stored in memory just like C++ each in a row
@@ -74,4 +77,35 @@ Slices
 
     slicing operations : can be used with both an array and a Slices
 
-    slices can have elements added and
+    slices can have elements added and removed
+
+
+Maps
+    in the format [keyType]valueType{}
+
+    slices cannot be a key to map
+
+    maps order are not gauranteed 
+
+    data passed into a map is pass by ref
+
+
+Structs
+    can hold multiple data types (objects in js)
+
+    
+Composition vs Inheritance
+    structs imbedded
+        animal to bird
+        ex. 
+        type Animal struct {
+            Name string
+            Origin string
+        }
+
+        type Bird struct {
+            animal
+            speed
+            canFly
+        }
+
